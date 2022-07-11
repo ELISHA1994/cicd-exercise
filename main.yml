@@ -1,0 +1,11 @@
+---
+- name: Exercise #1
+  hosts: localhost
+
+  roles:
+    - print
+
+
+#ACCESS_KEY=AKIA6B7BDSPTBW3HRMOE
+#SECRET_KEY=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
+#REGION=us-east-1
