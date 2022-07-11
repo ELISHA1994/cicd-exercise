@@ -67,8 +67,7 @@ jobs:
             else
               return 1
             fi
-      - destroy_environment:
-          - when: on_fail
+      - destroy_environment
 
   create_and_deploy_front_end:
     docker:
